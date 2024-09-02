@@ -1,0 +1,26 @@
+
+.card-body1{
+    border: 0.5px solid rgb(221, 218, 218);
+  } /*3951 */
+
+  .xl\:pb-20 {
+    padding-bottom: 0rem;
+   }    /*34206 */
+
+   .p-\[40px\] {
+    padding: 25px;
+    
+  }   /*3963*/
+
+  .xl\:pb-20 {
+    padding-bottom: 0rem;
+  }     /*34209 */
+
+  .xl\:mx-\[-35px\] {
+    margin-left: 10px;
+    margin-right: -35px;
+  }/*33175*/
+
+  .items-center {
+    align-items: baseline;
+  }/* 2359 */

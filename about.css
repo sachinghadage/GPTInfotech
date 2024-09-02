@@ -1,0 +1,121 @@
+/* .who-container{
+  margin-bottom: -15%;
+} */
+
+
+.custom-service-cards-section {
+  background-color: #f9f9f9;
+  padding: 3rem 0;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.custom-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.custom-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.custom-service-card {
+  max-width: 500px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.custom-card-inner {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card-inner:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.custom-card-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.custom-card-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* our story */
+.unique-our-story-section {
+  background-color: #f7f9fc; /* Soft background color */
+  padding: 0rem 0;
+}
+
+.unique-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.unique-story-card {
+  background: linear-gradient(135deg, #ffffff, #f3f4f6);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.unique-story-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.unique-section-title {
+  font-size: 2.5rem;
+  color: #1f2937; /* Dark gray color for contrast */
+  margin-bottom: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unique-section-content {
+  font-size: 1rem;
+  color: #4b5563; /* Muted text color for readability */
+  line-height: 1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unique-section-content + .unique-section-content {
+  margin-top: 0rem;
+}
+
+/* Additional media query for responsiveness */
+@media (max-width: 768px) {
+  .unique-story-card {
+      padding: 1.5rem;
+  }
+  .unique-section-title {
+      font-size: 2rem;
+  }
+  .unique-section-content {
+      font-size: 0.95rem;
+  }
+}
+
