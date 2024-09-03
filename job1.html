@@ -28,27 +28,33 @@
 <body>
   <div class="grow shrink-0">
     <header>
-      <nav id="navbar">
-        <div class="logo">
-          <a href="index.html">
-            <img src="assets/logo2.svg" alt="GPT InfoTech Logo">
+      <nav id="navbar-custom">
+          <div class="logo-custom">
+              <a href="index.html">
+                <img src="assets/logo3-cropped.svg" alt="GPT InfoTech Logo" />
+              </a>
+          </div>
+
+          <ul class="nav-links-custom">
+              <li><a href="about.html">About Us</a></li>
+              <li class="dropdown-custom">
+                  <a href="#">
+                      Services <i class="fas fa-chevron-down dropdown-icon-custom"></i>
+                  </a>
+                  <!-- Using Font Awesome icon -->
+                  <div class="dropdown-content-custom">
+                      <a href="services1.html">ERP</a>
+                      <a href="services2.html">CRM</a>
+                  </div>
+              </li>
+              <li><a href="resource.html">Resources</a></li>
+              <li><a href="career.html">Careers</a></li>
+          </ul>
+          <a href="contact.html">
+              <button class="contact-btn-custom">Contact</button>
           </a>
-        </div>
-        <ul class="nav-links">
-          <li><a href="about.html">About Us</a></li>
-          <li class="dropdown">
-            <a href="#">Services <i class="fas fa-chevron-down dropdown-icon"></i></a> <!-- Using Font Awesome icon -->
-            <div class="dropdown-content">
-              <a href="services1.html">ERP</a>
-            <a href="services2.html">CRM</a>
-            </div>
-          </li>
-          <li><a href="resource.html">Resources</a></li>
-          <li><a href="career.html">Careers</a></li>
-        </ul>
-        <a href="contact.html" ><button  class="contact-btn">Contact</button> </a>
       </nav>
-    </header>
+  </header>
    
     <section class="main-section">
       <div class="main-content">
@@ -137,6 +143,16 @@
           <p>Full Time | SQL, Advanced Excel, JIRA</p>
           <a href="job6.html" class="card-btn">View Details</a>
         </div>
+        <div class="card">
+          <h3>Business Analyst Intern</h3>
+          <p>Full Time | SQL, Advanced Excel, JIRA</p>
+          <a href="job7.html" class="card-btn">View Details</a>
+        </div>
+        <div class="card">
+          <h3>Data Scientist Intern</h3>
+          <p>Full Time | SQL, Advanced Excel, JIRA</p>
+          <a href="job8.html" class="card-btn">View Details</a>
+        </div>
         <!-- Add more cards as needed -->
       </div>
     </section>
@@ -146,7 +162,7 @@
   <section class="digital-transformation-strip">
     <div class="container">
       <h2 class="section-title">Let us help you with your Digital Transformation!</h2>
-      <a href="#contact" class="book-consultation-button">Book Consultation</a>
+      <a href="contact.html" class="book-consultation-button">Book Consultation</a>
     </div>
   </section>
 
